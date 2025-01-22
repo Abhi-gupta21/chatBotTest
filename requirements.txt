@@ -1,0 +1,13 @@
+langchain
+numpy
+pandas
+ipykernel
+python-dotenv
+dotenv
+langchain_openai
+langchain_core
+langchain_community
+pypdf
+langchain_text_splitters
+faiss-cpu
+streamlit
