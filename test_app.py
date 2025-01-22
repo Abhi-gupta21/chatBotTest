@@ -62,5 +62,10 @@ from langchain.chains import create_retrieval_chain
 
 
 retrieval_chain = create_retrieval_chain(retriever, document_chain)
-print(retrieval_chain.invoke({"input": input})['answer'])
-st.write(retrieval_chain.invoke({"input": input})['answer'])
+
+if input:
+    answer = retrieval_chain.invoke({"input": input})
+    print(answer)
+    st.write(answer)
+
+
