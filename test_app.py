@@ -13,6 +13,7 @@ st.title("CCHMC GUIDE BOT")
 
 # user input
 input = st.text_input("what is your query?")
+language = st.selectbox("language options", ['english', 'spanish', 'hindi'])
 
 # my llm model 
 from langchain_openai import ChatOpenAI
