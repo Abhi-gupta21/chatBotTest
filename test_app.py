@@ -70,9 +70,9 @@ from langchain_community.document_transformers import DoctranTextTranslator
 
 if input:
     answer = retrieval_chain.invoke({"input": input})
-    translator = DoctranTextTranslator(language=language)
-    translated_answer = translator.transform_documents(answer)
+    # translator = DoctranTextTranslator(language=language)
+    # translated_answer = translator.transform_documents(answer)
     print(answer['answer'])
-    st.write(translated_answer['answer'])
+    st.write(answer['answer'])
 
 
