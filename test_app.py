@@ -65,7 +65,7 @@ retrieval_chain = create_retrieval_chain(retriever, document_chain)
 
 if input:
     answer = retrieval_chain.invoke({"input": input})
-    print(answer)
-    st.write(answer)
+    print(answer['answer'])
+    st.write(answer['answer'])
 
 
