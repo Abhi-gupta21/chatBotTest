@@ -10,3 +10,4 @@ pypdf
 langchain_text_splitters
 faiss-cpu
 streamlit
+doctran
