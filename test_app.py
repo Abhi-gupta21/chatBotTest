@@ -13,7 +13,7 @@ st.title("CCHMC GUIDE BOT")
 
 # user input
 input = st.text_input("what is your query?")
-language = st.selectbox("language options", ['english', 'spanish', 'hindi'])
+language = st.selectbox("language options", ['english', 'spanish', 'hindi']) or 'english'
 
 # my llm model 
 from langchain_openai import ChatOpenAI
@@ -64,9 +64,14 @@ from langchain.chains import create_retrieval_chain
 
 retrieval_chain = create_retrieval_chain(retriever, document_chain)
 
+from langchain_community.document_transformers import DoctranTextTranslator
+
+
 if input:
     answer = retrieval_chain.invoke({"input": input})
+    translator = DoctranTextTranslator(language=language)
+    translated_answer = translator.transform_documents(answer)
     print(answer['answer'])
-    st.write(answer['answer'])
+    st.write(translated_answer['answer'])
 
 
