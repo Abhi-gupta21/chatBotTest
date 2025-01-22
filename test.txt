@@ -1,0 +1,42 @@
+If you're looking to build something specific or are more of a hands-on learner, check out our tutorials section. This is the best place to get started.
+
+These are the best ones to get started with:
+
+Build a Simple LLM Application
+Build a Chatbot
+Build an Agent
+Introduction to LangGraph
+Explore the full list of LangChain tutorials here, and check out other LangGraph tutorials here. To learn more about LangGraph, check out our first LangChain Academy course, Introduction to LangGraph, available here.
+
+How-to guides
+Here you’ll find short answers to How do I types of questions. These how-to guides don’t cover topics in depth – you’ll find that material in the Tutorials and the API Reference. However, these guides will help you quickly accomplish common tasks using chat models, vector stores, and other common LangChain components.
+
+Check out LangGraph-specific how-tos here.
+
+Conceptual guide
+Introductions to all the key parts of LangChain you’ll need to know! Here you'll find high level explanations of all LangChain concepts.
+
+For a deeper dive into LangGraph concepts, check out this page.
+
+Integrations
+LangChain is part of a rich ecosystem of tools that integrate with our framework and build on top of it. If you're looking to get up and running quickly with chat models, vector stores, or other LangChain components from a specific provider, check out our growing list of integrations.
+
+API reference
+Head to the reference section for full documentation of all classes and methods in the LangChain Python packages.
+
+Ecosystem
+LangSmith
+Trace and evaluate your language model applications and intelligent agents to help you move from prototype to production.
+
+LangGraph
+Build stateful, multi-actor applications with LLMs. Integrates smoothly with LangChain, but can be used without it.
+
+Additional resources
+Versions
+See what changed in v0.3, learn how to migrate legacy code, read up on our versioning policies, and more.
+
+Security
+Read up on security best practices to make sure you're developing safely with LangChain.
+
+Contributing
+Check out the developer's guide for guidelines on contributing and help getting your dev environment set up.
