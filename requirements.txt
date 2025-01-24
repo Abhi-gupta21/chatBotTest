@@ -15,5 +15,5 @@ datasets
 torch
 librosa
 accelerate>=0.26.0
-pydub
 audioop-lts
+pydub
