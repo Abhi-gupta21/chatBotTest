@@ -1,7 +1,6 @@
 langchain
 numpy
 pandas
-ffmpeg
 ipykernel
 python-dotenv
 langchain_openai
