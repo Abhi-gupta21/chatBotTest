@@ -13,6 +13,8 @@ streamlit
 googletrans
 datasets
 torch
+torchvision
+torchaudio
 librosa
 transformers
 accelerate>=0.26.0
