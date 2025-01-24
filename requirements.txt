@@ -16,5 +16,4 @@ torch
 librosa
 transformers
 accelerate>=0.26.0
-pyaudioop
 pydub
