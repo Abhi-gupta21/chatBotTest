@@ -1,5 +1,1 @@
 ffmpeg
-torch
-transformers
-langchain
-pydub
