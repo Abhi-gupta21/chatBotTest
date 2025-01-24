@@ -14,5 +14,6 @@ googletrans
 datasets
 torch
 librosa
+transformers
 accelerate>=0.26.0
 pydub
