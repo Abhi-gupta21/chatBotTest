@@ -1,7 +1,7 @@
 langchain
 numpy
-openai-whisper
 pandas
+whisper
 ipykernel
 python-dotenv
 langchain_openai
